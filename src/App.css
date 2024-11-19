@@ -1,0 +1,50 @@
+@import url('https://fonts.googleapis.com/css2?family=Kanit&display=swap');
+
+.kanit-regular {
+    font-family: "Kanit", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.App {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.movie-list-section {
+    width: 400px;
+    background-color: #FFFFFF;
+    box-shadow: 0px 4px 40px 0px #917C7C40;
+    border-radius: 10px;
+    padding: 18px 14px;
+    display: flex;
+    gap: 19px;
+    margin-bottom: 80px;
+    img {
+        width: 102px;
+        height: fit-content;
+        border-radius: 10px;
+    }
+    .container {
+        color: #181818;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        font-family: "Kanit";
+        .genres {
+            display: flex;
+            gap: 7px;
+            align-items: baseline;
+        }
+        .genreContainer {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 9px;
+        }
+        .genre {
+            background-color: #EAAC99;
+            border-radius: 10px;
+            padding: 4px 13px; 
+        }
+    }
+}
